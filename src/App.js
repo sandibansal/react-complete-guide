@@ -74,10 +74,10 @@ class App extends Component {
     // Setting classes dynamically
     let assignedClasses = [];
     if (this.state.persons.length <= 2) {
-      classes.push(classes.red);
+      assignedClasses.push(classes.red);
     }
     if (this.state.persons.length <= 1) {
-      classes.push(classes.bold);
+      assignedClasses.push(classes.bold);
     }
 
     return (
